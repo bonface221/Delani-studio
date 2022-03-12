@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 60vh;
+    height: 40vh;
 
     
     
@@ -132,5 +132,63 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
+
+}
+.contact{
+    background-image: url(../images/c_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+.contact-form{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.nameEmail{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.name-field{
+    padding-right: 5%;
+}
+input[type=text]{
+    width: 440px;
+    margin: auto;
+    outline: none;
+    border:1px solid #f6f9fc;
+    border-radius:2px;
+    padding:5px;
+    color:#b0f0a3;
+    font-size:20px;
+    background: transparent;
+    
+
+}
+
+input[type=email] {
+    width: 440px;
+    margin: auto;
+    outline: none;
+    border: 1px solid #f6f9fc;
+    border-radius: 2px;
+    padding: 5px;
+    color: #b0f0a3;
+    font-size: 20px;
+    background: transparent;
+
+}
+textarea{
+    position: absolute;
+    left: 22%;
+    margin-top:2% ;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: 1px solid #f6f9fc;
 
 }
