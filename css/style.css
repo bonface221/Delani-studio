@@ -130,7 +130,10 @@
 }
 .portfolio-images{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 10px;
+    justify-content: center;
+    grid-gap: 1%;
     
 
 }
@@ -191,4 +194,12 @@ textarea{
     color: white;
     border: 1px solid #f6f9fc;
 
+}
+footer{
+    padding: 2% 0;
+}
+.footer-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
