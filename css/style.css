@@ -102,12 +102,13 @@
 };
 .whatWeDoSection{
     height: 100vh;
+    
 }
 .whatWeDo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: auto;
+    height: 60vh;
 
     
     
@@ -123,4 +124,13 @@
 .fav-icons{
     width: 80px;
     height: 80px;
+}
+.portfolio{
+    height: 100vh;
+}
+.portfolio-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
 }
