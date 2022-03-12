@@ -48,3 +48,58 @@
 .mouse-logo img{
     height: 50px;
 }
+.aboutUs{
+    height:50vh;
+    width:100%;
+    text-align: center;
+    
+}
+.aboutUs article{
+    padding:7rem;
+    line-height: 40px;
+    color: #242323;
+    font-size: 22px;
+}
+.services{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/s_image.jpg);
+    background-repeat: no-repeat;
+    
+}
+.services div{
+    padding:3rem;
+    line-height: 40px;
+    color: #ffff;
+    font-size: 22px;
+}
+@media screen and (max-width:1200px) {
+    .aboutUs article {
+        padding: 2rem;
+        
+        color: #242323;
+        font-size: 20px;
+    };
+    .services div {
+        padding: 1rem;
+        
+        color: #242323;
+        font-size: 20px;
+    }
+    
+};
+
+@media screen and (max-width:750px){
+    .aboutUs{
+        padding-bottom: 20px;
+    }
+    .aboutUs article {
+        
+        
+        color: #242323;
+        
+    }
+
+    ;
+}
