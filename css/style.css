@@ -22,14 +22,14 @@
     width: 90%;
     color: white;
     position:absolute;
-    top: 50%;
+    top: 45.5%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 
 }
 .logo1{
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     
     
 }
@@ -38,5 +38,13 @@
     font-weight:500;
 }
 .welcome{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+}
+.mouse-logo{
+    position: absolute;
+    bottom: 5%;
+    left: 48.7%;
+}
+.mouse-logo img{
+    height: 50px;
 }
