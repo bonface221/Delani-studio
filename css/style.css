@@ -36,7 +36,8 @@
 }
 .para{
     font-size: 50px;
-    font-weight:500;
+    font-weight:600 ;
+
 }
 .welcome{
     padding-bottom: 1%;
@@ -70,6 +71,7 @@
     background-size: cover;
     background-position: center;
     padding: 7% 0;
+    margin-bottom: 2%;
 
     
 }
@@ -103,12 +105,15 @@
 .whatWeDoSection{
     height: 100vh;
     
+    
 }
 .whatWeDo {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
     height: 40vh;
+    align-items: center;
+    padding-left: 5%;
 
     
     
@@ -118,8 +123,16 @@
     display: none;
 }
 .whatWeDo div{
-    padding-right: 20px;
+   
     align-items: center;
+    
+}
+.whatWeDoSection h2{
+   margin-left: auto;
+   margin-right: auto;
+   width: 8em
+   
+   
 }
 .fav-icons{
     width: 80px;
@@ -128,12 +141,18 @@
 .portfolio{
     height: 100vh;
 }
+.portfolio h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
 .portfolio-images{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding-left: 10px;
     justify-content: center;
     grid-gap: 1%;
+    padding-top: 15px;
     
 
 }
@@ -144,6 +163,15 @@
     background-size: cover;
     height: 60vh;
     position: relative;
+    padding-top: 40px;
+    color: white;
+}
+.contact h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+   
+    
 }
 .contact-form{
     position: absolute;
@@ -163,7 +191,7 @@ input[type=text]{
     width: 440px;
     margin: auto;
     outline: none;
-    border:1px solid #f6f9fc;
+    border:2px solid #f6f9fc;
     border-radius:2px;
     padding:5px;
     color:#b0f0a3;
@@ -177,7 +205,7 @@ input[type=email] {
     width: 440px;
     margin: auto;
     outline: none;
-    border: 1px solid #f6f9fc;
+    border: 2px solid #f6f9fc;
     border-radius: 2px;
     padding: 5px;
     color: #b0f0a3;
@@ -192,14 +220,24 @@ textarea{
     background: transparent;
     outline: none;
     color: white;
-    border: 1px solid #f6f9fc;
+    border: 2px solid #f6f9fc;
 
 }
 footer{
     padding: 2% 0;
+    position: relative;
 }
 .footer-icons{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.delani-footer-text{
+   position:absolute;
+   left: 45%;
+   padding-bottom: 20px;
+    
+}
+.delani-footer-text p{
+    padding-left: 60px;
 }
