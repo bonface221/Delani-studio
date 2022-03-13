@@ -27,8 +27,9 @@ $(document).ready(function () {
 		$("#whatManagement").toggle();
 		$(".pManagement").toggle();
     });
-    
-    
+    $("button").click(function () {
+        alert($("#name").val() + " we have received your message. Thank you for reaching out to us.")
+    })
 
 
 
