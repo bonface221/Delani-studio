@@ -26,7 +26,8 @@ $(document).ready(function () {
 	$(".pManagement").click(function () {
 		$("#whatManagement").toggle();
 		$(".pManagement").toggle();
-	});
+    });
+    
     
 
 

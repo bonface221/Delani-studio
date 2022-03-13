@@ -250,6 +250,7 @@ input[type=text]{
     font-size:20px;
     background: transparent;
     
+    
 
 }
 
@@ -263,23 +264,38 @@ input[type=email] {
     color: #b0f0a3;
     font-size: 20px;
     background: transparent;
+    
 
 }
+input[type=email]:focus{
+    background-color: white;
+    color: black;
+}
+input[type=text]:focus {
+    background-color: white;
+    color: black;
+}
 textarea{
-    position: absolute;
-    left: 22%;
-    margin-top:2% ;
+    margin-top:5% ;
     background: transparent;
     outline: none;
     color: white;
     border: 2px solid #f6f9fc;
+    max-width: 98%;
+    margin-left: 1%;
+    
+    
 
 }
-.submiting{
+textarea:focus{
+    background-color: white;
+    color: black;
+}
+/* .submiting{
     position: absolute;
     left: 22%;
     top:690%;
-}
+} */
 
 footer{
     padding: 2% 0;
@@ -335,14 +351,16 @@ footer{
 #submit{
     height: 40px;
     width: 140px;
-    font-size: 16px;
-    padding: 2%;
+    font-size: 15px;
+    margin-top: 2%;
     color: white;
     background: #5e78a8;
     outline: none;
     border-radius: 10px;
     border: 1px solid white;
     cursor: pointer;
+    margin-left: 2%;
+
 }
 #submit:hover{
     
@@ -358,6 +376,115 @@ footer{
     background-color: white;
 
 }
+@media screen and (max-width :1550px) {
+    .contact {
+        background-image: url(../images/c_image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        position: relative;
+        padding-top: 40px;
+        color: white;
+        max-width: 100%;
+        margin-top: 15%;
+    }
+    .delani-footer-text {
+        position: absolute;
+        left: 43%;
+        padding-bottom: 20px;
+
+    }
+    
+}
+
+@media screen and (max-width:960px){
+
+    input[type=text] {
+        width: 300px;
+        margin: auto;
+        outline: none;
+        border: 2px solid #f6f9fc;
+        border-radius: 2px;
+        padding: 5px;
+        color: #b0f0a3;
+        font-size: 20px;
+        background: transparent;
+
+
+    }
+    input[type=email] {
+        width: 300px;
+        margin: auto;
+        outline: none;
+        border: 2px solid #f6f9fc;
+        border-radius: 2px;
+        padding: 5px;
+        color: #b0f0a3;
+        font-size: 20px;
+        background: transparent;
+
+    }
+    .delani-footer-text {
+        position: absolute;
+        left: 40%;
+        padding-bottom: 20px;
+
+    }
+    
+}
+@media screen and (max-width:643px){
+    input[type=text] {
+        width: 240px;
+        margin: auto;
+        outline: none;
+        border: 2px solid #f6f9fc;
+        border-radius: 2px;
+        padding: 5px;
+        color: #b0f0a3;
+        font-size: 20px;
+        background: transparent;
+
+
+    }
+    .delani-footer-text {
+        position: absolute;
+        left: 36%;
+        padding-bottom: 20px;
+
+    }
+
+    input[type=email] {
+        width: 240px;
+        margin: auto;
+        outline: none;
+        border: 2px solid #f6f9fc;
+        border-radius: 2px;
+        padding: 5px;
+        color: #b0f0a3;
+        font-size: 20px;
+        background: transparent;
+
+    }
+}
+@media screen and (max-width:505px){
+    .nameEmail {
+        display: block;
+        padding-left: 2%;
+    
+    }
+    .name-field{
+        padding-bottom: 2%;
+    }
+    .delani-footer-text {
+        position: absolute;
+        left: 35%;
+        padding-bottom: 20px;
+
+    }
+}
+
+
 
 
 
