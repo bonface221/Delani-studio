@@ -2,11 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
 
 }
 .body{
     overflow: hidden;
     overflow-y: hidden;
+}
+html {
+    overflow-x: hidden;
 }
 
 #landing-page{
@@ -15,11 +19,12 @@
     position: relative;
     background-position: center;
     height:100vh;
+    max-width: 100%;
     
    
 
 }
-.text{
+.texti{
     width: 90%;
     color: white;
     position:absolute;
@@ -54,6 +59,7 @@
     height:auto;
     width:100%;
     text-align: center !important;
+    max-width: 100%;
     
 }
 .aboutUs article{
@@ -72,6 +78,7 @@
     background-position: center;
     padding: 7% 0;
     margin-bottom: 2%;
+    max-width: 100%;
 
     
 }
@@ -104,16 +111,18 @@
 };
 .whatWeDoSection{
     height: 100vh;
+    max-width: 100%;
     
     
 }
 .whatWeDo {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     height: 40vh;
     align-items: center;
     padding-left: 5%;
+   
 
     
     
@@ -122,9 +131,17 @@
 .hide{
     display: none;
 }
+.hide h3{
+   text-align: center;
+   padding-bottom: 5px;
+}
+.hide p{
+    text-align: center;
+}
 .whatWeDo div{
-   
+    
     align-items: center;
+    text-align: center;
     
 }
 .whatWeDoSection h2{
@@ -140,6 +157,7 @@
 }
 .portfolio{
     height: 100vh;
+    max-width: 100%;
 }
 .portfolio h2{
     margin-left: auto;
@@ -153,18 +171,52 @@
     justify-content: center;
     grid-gap: 1%;
     padding-top: 15px;
+   
     
 
+}
+.container{
+    position: relative;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+}
+.container:hover img{
+    opacity: 0.2;
+}
+
+.container:hover .middle{
+    opacity: 1;
+   
+}
+.text {
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border: 7px solid white;
+    padding: 4%;
+    
 }
 .contact{
     background-image: url(../images/c_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     position: relative;
     padding-top: 40px;
     color: white;
+    max-width: 100%;
 }
 .contact h2{
     margin-left: auto;
@@ -223,9 +275,16 @@ textarea{
     border: 2px solid #f6f9fc;
 
 }
+.submiting{
+    position: absolute;
+    left: 22%;
+    top:690%;
+}
+
 footer{
     padding: 2% 0;
     position: relative;
+    max-width: 100%;
 }
 .footer-icons{
     display: flex;
@@ -241,3 +300,75 @@ footer{
 .delani-footer-text p{
     padding-left: 60px;
 }
+@media screen and (max-width:1550px) {
+    .portfolio-images {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        padding-left: 10px;
+        justify-content: center;
+        grid-gap: 1%;
+        padding-top: 15px;
+
+
+    }
+    
+}
+@media screen and (max-width:1300px) {
+    .portfolio {
+        height: auto;
+    }
+    .portfolio-images {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 10px;
+        justify-content: center;
+        grid-gap: 1%;
+        padding-top: 15px;
+        overflow: hidden;
+
+
+
+    }
+    
+    
+}
+#submit{
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    padding: 2%;
+    color: white;
+    background: #5e78a8;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#submit:hover{
+    
+    width: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

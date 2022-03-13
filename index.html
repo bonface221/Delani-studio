@@ -12,7 +12,7 @@
 <body>
     <!-- landing page starts -->
     <section id="landing-page">
-        <div class="text">
+        <div class="texti">
             <img  class="logo1" src="./images/logo.png" alt="Delani-logo">
             <p class="para welcome" >WELCOME</p>
             <p class="para">TO DELANI STUDIO</p>
@@ -52,12 +52,12 @@
         <h2>WHAT WE DO</h2>
         <div class="whatWeDo">
             <div>
-                <div>
+                <div id="whatDesign">
                     <img src="./images/design_icon.png" class="fav-icons" alt="design icon">
-                    <p>DESIGN</p>
+                    <h3>DESIGN</h3>
                 </div>
-                <div class="hide">
-                    <p>Design</p>
+                <div class="hide pDesign">
+                    <h3>Design</h3>
                     <p>"Our design practice offers a full range of services including brand <br>strategy, interaction and visual design and user experience testing"
                     <br><br> "Throughout your project, our designers create and implement visual design <br>
                     and workflows, solicit user feedback and work with you to make sure what <br>gets built is what is needed."</p>
@@ -65,12 +65,12 @@
             </div>
            
             <div>
-                <div>
+                <div id="whatDevelopment">
                    <img src="./images/dev_icon.png" class="fav-icons" alt="development icon">
-                   <p>DEVELOPMENT</p> 
+                   <h3>DEVELOPMENT</h3> 
                 </div>
-                <div class="hide">
-                    <p>Development</p>
+                <div class="hide pDevelopment">
+                    <h3>Development</h3>
                     <p>"All our engineers are fluent in the latest enterprise, mobile and web <br>
                     development technologies."<br><br>
                     "They collaborate with your team to write, and improve code on a daily <br>basis, using proven practice such as test-driven development and pair <br>
@@ -79,12 +79,12 @@
                 
             </div>
             <div>
-                <div>
+                <div id="whatManagement">
                     <img  src="./images/product_icon.png"class="fav-icons third" alt="product_icon">
-                    <p class="projectp">PRODUCT MANAGEMENT</p>
+                    <h3 class="projectp">PRODUCT MANAGEMENT</h3>
                 </div>
-                <div class="hide">
-                    <p >Project management</p>
+                <div class="hide pManagement">
+                    <h3>Project management</h3>
                     <p>"Planning and development is iteractive. Because we are constantly coding <br>and testing,
                     the products we build are always ready to go live." <br><br>This iteractive process allows for changes as business requirement evolve</p>
                 </div>
@@ -98,29 +98,53 @@
     <section class="portfolio">
         <h2>PORTFOLIO</h2>
         <div class="portfolio-images">
-            <div>
+            <div class="container">
                 <img src="./images/work1.jpg" alt="work1">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work2.jpg" alt="work2">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work3.jpg" alt="work3">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work4.jpg" alt="work4">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work5.jpg" alt="work5">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work6.jpg" alt="work6">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work7.jpg" alt="work7">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <img src="./images/work8.jpg" alt="work8">
+                <div class="middle">
+                    <div class="text">BARLEY WANGER</div>
+                </div>
             </div>
 
         </div>
@@ -145,6 +169,8 @@
 
                     </textarea>
                 </div>
+                <div class="submiting"><button id="submit" type="submit">Send message</button></div>
+                
 
             </form>
         </div>
@@ -171,7 +197,7 @@
         </div>
 
     </footer>
-
+   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
