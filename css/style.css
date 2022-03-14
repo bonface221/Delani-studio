@@ -376,6 +376,20 @@ footer{
     background-color: white;
 
 }
+@media screen and (min-width :1551px) {
+     .contact {
+         background-image: url(../images/c_image.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 70vh;
+         position: relative;
+         padding-top: 40px;
+         color: white;
+         max-width: 100%;
+         margin-top: 0%;
+     }
+}
 @media screen and (max-width :1550px) {
     .contact {
         background-image: url(../images/c_image.jpg);
