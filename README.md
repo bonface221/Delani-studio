@@ -39,7 +39,7 @@ You don't need to install anything you only need internet connection
 </ul>
 
 ## Live site
-here is a working live demo: [link](https://bonface221.github.io/Birthday-calculator/)
+here is a working live demo: [link](bonface221.github.io/delani-studio/)
 ## license
 [license](/LICENSE)
 ## Authors
